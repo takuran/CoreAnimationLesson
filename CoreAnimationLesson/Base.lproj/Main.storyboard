@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yAp-me-AtW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yAp-me-AtW">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -83,6 +83,29 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="sqb-li-sdu" kind="show" id="yDw-8u-DnK"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="FSd-vU-Qza" detailTextLabel="QNn-1d-jVn" style="IBUITableViewCellStyleSubtitle" id="OjA-KU-h3i">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OjA-KU-h3i" id="ABb-4A-tkT">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="CALayer.contentsScale property" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FSd-vU-Qza">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Lesson1-4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QNn-1d-jVn">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="xF6-R6-w1h" kind="show" id="llW-BE-26c"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -256,7 +279,70 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O4m-qM-94V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2828" y="-186"/>
+            <point key="canvasLocation" x="2799" y="-186"/>
+        </scene>
+        <!--Lesson1-4-->
+        <scene sceneID="6IM-0S-il7">
+            <objects>
+                <viewController title="Lesson1-4" id="xF6-R6-w1h" customClass="Lesson1_4ViewController" customModule="CoreAnimationLesson" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vHy-L3-rlv"/>
+                        <viewControllerLayoutGuide type="bottom" id="f2u-hx-chg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NsF-g9-TcE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IRx-UP-xNe">
+                                <rect key="frame" x="45" y="104" width="510" height="443"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="k0W-Ol-bd0">
+                                <rect key="frame" x="267" y="555" width="67" height="29"/>
+                                <segments>
+                                    <segment title="1.0"/>
+                                    <segment title="2.0"/>
+                                </segments>
+                            </segmentedControl>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="contentsScale =" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hDe-pX-tKQ">
+                                <rect key="frame" x="154" y="555" width="109" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="109" id="8n3-OK-Cuc"/>
+                                </constraints>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3zC-J9-cy6">
+                                <rect key="frame" x="506" y="554" width="51" height="31"/>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="f2u-hx-chg" firstAttribute="top" secondItem="IRx-UP-xNe" secondAttribute="bottom" constant="53" id="9i2-uQ-aK6"/>
+                            <constraint firstItem="f2u-hx-chg" firstAttribute="top" secondItem="hDe-pX-tKQ" secondAttribute="bottom" constant="15" id="FEG-Z5-mgH"/>
+                            <constraint firstItem="k0W-Ol-bd0" firstAttribute="centerY" secondItem="hDe-pX-tKQ" secondAttribute="centerY" constant="-1" id="GFK-AN-fXL"/>
+                            <constraint firstItem="IRx-UP-xNe" firstAttribute="top" secondItem="vHy-L3-rlv" secondAttribute="bottom" constant="40" id="J4l-wm-72h"/>
+                            <constraint firstItem="hDe-pX-tKQ" firstAttribute="top" secondItem="IRx-UP-xNe" secondAttribute="bottom" constant="8" id="JK9-mw-7jN"/>
+                            <constraint firstAttribute="centerX" secondItem="k0W-Ol-bd0" secondAttribute="centerX" constant="-0.5" id="Kqn-jq-DvK"/>
+                            <constraint firstItem="3zC-J9-cy6" firstAttribute="top" secondItem="IRx-UP-xNe" secondAttribute="bottom" constant="7" id="Z7C-TL-wbj"/>
+                            <constraint firstItem="f2u-hx-chg" firstAttribute="top" secondItem="3zC-J9-cy6" secondAttribute="bottom" constant="15" id="aeX-cE-03n"/>
+                            <constraint firstItem="k0W-Ol-bd0" firstAttribute="top" secondItem="IRx-UP-xNe" secondAttribute="bottom" constant="8" id="ep1-ej-htg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IRx-UP-xNe" secondAttribute="trailing" constant="29" id="qup-Wx-L10"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3zC-J9-cy6" secondAttribute="trailing" constant="29" id="sPx-Xd-9o6"/>
+                            <constraint firstItem="IRx-UP-xNe" firstAttribute="leading" secondItem="NsF-g9-TcE" secondAttribute="leadingMargin" constant="29" id="wBd-ek-uZh"/>
+                            <constraint firstItem="k0W-Ol-bd0" firstAttribute="leading" secondItem="hDe-pX-tKQ" secondAttribute="trailing" constant="4" id="xbh-J3-TQA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mySegmentedControl" destination="k0W-Ol-bd0" id="jd6-ij-mqV"/>
+                        <outlet property="mySwitch" destination="3zC-J9-cy6" id="B2u-PZ-JIa"/>
+                        <outlet property="myView" destination="IRx-UP-xNe" id="0Kk-sS-9vU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j93-9n-ODi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3492" y="-186"/>
         </scene>
     </scenes>
 </document>
