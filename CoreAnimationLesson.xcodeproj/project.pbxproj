@@ -16,6 +16,8 @@
 		6E5EC53D1AA2B55000DE08CF /* Lesson1_1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5EC53C1AA2B55000DE08CF /* Lesson1_1ViewController.swift */; };
 		6E5EC5411AA2FEE700DE08CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5EC5401AA2FEE700DE08CF /* QuartzCore.framework */; };
 		6E6261E71AACA1AC0047A250 /* Lesson1_3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6261E61AACA1AC0047A250 /* Lesson1_3ViewController.swift */; };
+		6EC9EA7D1AD1162B009A9A4A /* AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EC9EA7C1AD1162B009A9A4A /* AB.png */; };
+		6EC9EA7F1AD1189E009A9A4A /* Lesson1-5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9EA7E1AD1189E009A9A4A /* Lesson1-5ViewController.swift */; };
 		6ED891031AA622F8005D9687 /* Lesson1_2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED891021AA622F8005D9687 /* Lesson1_2ViewController.swift */; };
 		6EDEF63E1AB51BC100CE61B1 /* chess.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEF63D1AB51BC100CE61B1 /* chess.png */; };
 /* End PBXBuildFile section */
@@ -44,6 +46,8 @@
 		6E5EC53C1AA2B55000DE08CF /* Lesson1_1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson1_1ViewController.swift; sourceTree = "<group>"; };
 		6E5EC5401AA2FEE700DE08CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6E6261E61AACA1AC0047A250 /* Lesson1_3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson1_3ViewController.swift; sourceTree = "<group>"; };
+		6EC9EA7C1AD1162B009A9A4A /* AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AB.png; sourceTree = "<group>"; };
+		6EC9EA7E1AD1189E009A9A4A /* Lesson1-5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lesson1-5ViewController.swift"; sourceTree = "<group>"; };
 		6ED891021AA622F8005D9687 /* Lesson1_2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson1_2ViewController.swift; sourceTree = "<group>"; };
 		6EDEF63D1AB51BC100CE61B1 /* chess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +136,7 @@
 				6ED891021AA622F8005D9687 /* Lesson1_2ViewController.swift */,
 				6E6261E61AACA1AC0047A250 /* Lesson1_3ViewController.swift */,
 				6E0C6AED1ABEC34700BEADC8 /* Lesson1_4ViewController.swift */,
+				6EC9EA7E1AD1189E009A9A4A /* Lesson1-5ViewController.swift */,
 			);
 			name = Lesson1;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 		6EF71BC11AAC1DB8009B4BC0 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				6EC9EA7C1AD1162B009A9A4A /* AB.png */,
 				6EDEF63D1AB51BC100CE61B1 /* chess.png */,
 			);
 			name = Resource;
@@ -226,6 +232,7 @@
 			files = (
 				6E5EC51D1AA287A600DE08CF /* Main.storyboard in Resources */,
 				6E5EC5221AA287A600DE08CF /* LaunchScreen.xib in Resources */,
+				6EC9EA7D1AD1162B009A9A4A /* AB.png in Resources */,
 				6EDEF63E1AB51BC100CE61B1 /* chess.png in Resources */,
 				6E5EC51F1AA287A600DE08CF /* Images.xcassets in Resources */,
 			);
@@ -249,6 +256,7 @@
 				6E0C6AEE1ABEC34700BEADC8 /* Lesson1_4ViewController.swift in Sources */,
 				6ED891031AA622F8005D9687 /* Lesson1_2ViewController.swift in Sources */,
 				6E6261E71AACA1AC0047A250 /* Lesson1_3ViewController.swift in Sources */,
+				6EC9EA7F1AD1189E009A9A4A /* Lesson1-5ViewController.swift in Sources */,
 				6E5EC5181AA287A600DE08CF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
