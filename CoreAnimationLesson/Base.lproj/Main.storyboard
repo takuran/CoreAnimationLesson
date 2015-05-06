@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yAp-me-AtW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yAp-me-AtW">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -153,6 +153,29 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="xnU-Rs-vuq" kind="show" id="Upc-Fe-Iko"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="EVo-yo-C46" detailTextLabel="cY5-wz-whj" style="IBUITableViewCellStyleSubtitle" id="mVu-bB-Tpp">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mVu-bB-Tpp" id="pgv-gf-mzh">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="custom draw(CALayer)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EVo-yo-C46">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Lesson1-7" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cY5-wz-whj">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ea8-7e-cOs" kind="show" id="9Id-lW-7Y2"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -525,6 +548,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lf3-kk-SC3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4851" y="-186"/>
+        </scene>
+        <!--Lesson1-7-->
+        <scene sceneID="adO-Ms-TVq">
+            <objects>
+                <viewController title="Lesson1-7" id="ea8-7e-cOs" customClass="Lesson1_7ViewController" customModule="CoreAnimationLesson" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ydB-Ma-bbi"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZJJ-Vy-xIg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kNM-By-u4N">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WrA-ep-ALF" customClass="Lesson1_7View" customModule="CoreAnimationLesson" customModuleProvider="target">
+                                <rect key="frame" x="36" y="84" width="528" height="496"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WrA-ep-ALF" firstAttribute="leading" secondItem="kNM-By-u4N" secondAttribute="leadingMargin" constant="20" id="5Td-Fh-rNc"/>
+                            <constraint firstItem="ZJJ-Vy-xIg" firstAttribute="top" secondItem="WrA-ep-ALF" secondAttribute="bottom" constant="20" id="GFa-y7-TkP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WrA-ep-ALF" secondAttribute="trailing" constant="20" id="NX3-6i-6q5"/>
+                            <constraint firstItem="WrA-ep-ALF" firstAttribute="top" secondItem="ydB-Ma-bbi" secondAttribute="bottom" constant="20" id="jBy-ed-14f"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myView" destination="WrA-ep-ALF" id="0qM-b6-fVb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RU2-WX-bCG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5534" y="-186"/>
         </scene>
     </scenes>
 </document>

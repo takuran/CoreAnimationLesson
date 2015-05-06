@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6E0C6AEE1ABEC34700BEADC8 /* Lesson1_4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C6AED1ABEC34700BEADC8 /* Lesson1_4ViewController.swift */; };
+		6E5945481ADC3241009F7C78 /* Lesson1-7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5945471ADC3241009F7C78 /* Lesson1-7ViewController.swift */; };
 		6E5EC5181AA287A600DE08CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5EC5171AA287A600DE08CF /* AppDelegate.swift */; };
 		6E5EC51D1AA287A600DE08CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5EC51B1AA287A600DE08CF /* Main.storyboard */; };
 		6E5EC51F1AA287A600DE08CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5EC51E1AA287A600DE08CF /* Images.xcassets */; };
@@ -16,6 +17,7 @@
 		6E5EC53D1AA2B55000DE08CF /* Lesson1_1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5EC53C1AA2B55000DE08CF /* Lesson1_1ViewController.swift */; };
 		6E5EC5411AA2FEE700DE08CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5EC5401AA2FEE700DE08CF /* QuartzCore.framework */; };
 		6E6261E71AACA1AC0047A250 /* Lesson1_3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6261E61AACA1AC0047A250 /* Lesson1_3ViewController.swift */; };
+		6E9C30F61AECA9B3008D5A11 /* Lesson1-7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9C30F51AECA9B3008D5A11 /* Lesson1-7View.swift */; };
 		6EC9EA7D1AD1162B009A9A4A /* AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EC9EA7C1AD1162B009A9A4A /* AB.png */; };
 		6EC9EA7F1AD1189E009A9A4A /* Lesson1-5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9EA7E1AD1189E009A9A4A /* Lesson1-5ViewController.swift */; };
 		6EC9EA811AD18198009A9A4A /* Lesson1-6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9EA801AD18198009A9A4A /* Lesson1-6ViewController.swift */; };
@@ -36,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		6E0C6AED1ABEC34700BEADC8 /* Lesson1_4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson1_4ViewController.swift; sourceTree = "<group>"; };
+		6E5945471ADC3241009F7C78 /* Lesson1-7ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lesson1-7ViewController.swift"; sourceTree = "<group>"; };
 		6E5EC5121AA287A600DE08CF /* CoreAnimationLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5EC5161AA287A600DE08CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E5EC5171AA287A600DE08CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		6E5EC53C1AA2B55000DE08CF /* Lesson1_1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson1_1ViewController.swift; sourceTree = "<group>"; };
 		6E5EC5401AA2FEE700DE08CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6E6261E61AACA1AC0047A250 /* Lesson1_3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson1_3ViewController.swift; sourceTree = "<group>"; };
+		6E9C30F51AECA9B3008D5A11 /* Lesson1-7View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lesson1-7View.swift"; sourceTree = "<group>"; };
 		6EC9EA7C1AD1162B009A9A4A /* AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AB.png; sourceTree = "<group>"; };
 		6EC9EA7E1AD1189E009A9A4A /* Lesson1-5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lesson1-5ViewController.swift"; sourceTree = "<group>"; };
 		6EC9EA801AD18198009A9A4A /* Lesson1-6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lesson1-6ViewController.swift"; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 				6E0C6AED1ABEC34700BEADC8 /* Lesson1_4ViewController.swift */,
 				6EC9EA7E1AD1189E009A9A4A /* Lesson1-5ViewController.swift */,
 				6EC9EA801AD18198009A9A4A /* Lesson1-6ViewController.swift */,
+				6E5945471ADC3241009F7C78 /* Lesson1-7ViewController.swift */,
+				6E9C30F51AECA9B3008D5A11 /* Lesson1-7View.swift */,
 			);
 			name = Lesson1;
 			sourceTree = "<group>";
@@ -205,6 +211,7 @@
 				TargetAttributes = {
 					6E5EC5111AA287A600DE08CF = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 675H7G3SAV;
 					};
 					6E5EC5261AA287A600DE08CF = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -259,10 +266,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E5945481ADC3241009F7C78 /* Lesson1-7ViewController.swift in Sources */,
 				6E5EC53D1AA2B55000DE08CF /* Lesson1_1ViewController.swift in Sources */,
 				6E0C6AEE1ABEC34700BEADC8 /* Lesson1_4ViewController.swift in Sources */,
 				6ED891031AA622F8005D9687 /* Lesson1_2ViewController.swift in Sources */,
 				6E6261E71AACA1AC0047A250 /* Lesson1_3ViewController.swift in Sources */,
+				6E9C30F61AECA9B3008D5A11 /* Lesson1-7View.swift in Sources */,
 				6EC9EA7F1AD1189E009A9A4A /* Lesson1-5ViewController.swift in Sources */,
 				6E5EC5181AA287A600DE08CF /* AppDelegate.swift in Sources */,
 				6EC9EA811AD18198009A9A4A /* Lesson1-6ViewController.swift in Sources */,
@@ -341,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -377,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -388,7 +397,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CoreAnimationLesson/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -398,7 +409,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CoreAnimationLesson/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
