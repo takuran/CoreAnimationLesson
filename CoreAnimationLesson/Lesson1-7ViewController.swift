@@ -48,7 +48,7 @@ class Lesson1_7ViewController: UIViewController {
     }
 ***/
     
-    override func drawLayer(layer: CALayer!, inContext ctx: CGContext!) {
+    override func drawLayer(layer: CALayer, inContext ctx: CGContext) {
         NSLog("perform drawLayer.")
         //
         CGContextSetFillColorWithColor(ctx, UIColor.redColor().CGColor)

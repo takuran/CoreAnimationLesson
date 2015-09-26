@@ -101,6 +101,7 @@
 		6E5EC5141AA287A600DE08CF /* CoreAnimationLesson */ = {
 			isa = PBXGroup;
 			children = (
+				6EAE01251AF9F36D006F1DC7 /* Lesson2 */,
 				6EF71BC11AAC1DB8009B4BC0 /* Resource */,
 				6E5EC53B1AA2B4BA00DE08CF /* Lesson1 */,
 				6E5EC5171AA287A600DE08CF /* AppDelegate.swift */,
@@ -150,6 +151,13 @@
 				6E9C30F51AECA9B3008D5A11 /* Lesson1-7View.swift */,
 			);
 			name = Lesson1;
+			sourceTree = "<group>";
+		};
+		6EAE01251AF9F36D006F1DC7 /* Lesson2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Lesson2;
 			sourceTree = "<group>";
 		};
 		6EF71BC11AAC1DB8009B4BC0 /* Resource */ = {
@@ -206,6 +214,8 @@
 		6E5EC50A1AA287A500DE08CF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Naoyuki Takura";
 				TargetAttributes = {

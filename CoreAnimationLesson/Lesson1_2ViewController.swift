@@ -55,10 +55,10 @@ class Lesson1_2ViewController: UIViewController {
             myView.contentMode = UIViewContentMode.Bottom
 
         default:
-            println("no such index. index : \(target.selectedSegmentIndex)")
+            print("no such index. index : \(target.selectedSegmentIndex)")
         }
         
-        println("geometryFlipped value : \(myView.layer.geometryFlipped)")
+        print("geometryFlipped value : \(myView.layer.geometryFlipped)")
         
     }
     

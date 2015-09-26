@@ -35,9 +35,9 @@ class Lesson1_4ViewController: UIViewController {
         mySwitch.addTarget(self, action: "switchValueChanged:", forControlEvents: UIControlEvents.ValueChanged)
         
         // dump contentsScale
-        println("contentsScale : \(myView.layer.contentsScale)")
-        println("image Scale   : \(image?.scale)")
-        println("UIScreen scale: \(UIScreen.mainScreen().scale)")
+        print("contentsScale : \(myView.layer.contentsScale)")
+        print("image Scale   : \(image?.scale)")
+        print("UIScreen scale: \(UIScreen.mainScreen().scale)")
         
     }
 

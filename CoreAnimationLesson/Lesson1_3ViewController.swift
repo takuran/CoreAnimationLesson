@@ -60,10 +60,10 @@ class Lesson1_3ViewController: UIViewController {
             myView.layer.contentsGravity = kCAGravityBottom
             
         default:
-            println("no such index. index : \(target.selectedSegmentIndex)")
+            print("no such index. index : \(target.selectedSegmentIndex)")
         }
         
-        println("geometryFlipped value : \(myView.layer.geometryFlipped)")
+        print("geometryFlipped value : \(myView.layer.geometryFlipped)")
         
     }
 
