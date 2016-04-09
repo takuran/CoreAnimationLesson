@@ -30,9 +30,9 @@ class Lesson1_4ViewController: UIViewController {
         myView.layer.masksToBounds = true
         
         // set action for segmented control
-        mySegmentedControl.addTarget(self, action: "segmentedValueChanged:", forControlEvents: UIControlEvents.ValueChanged)
+        mySegmentedControl.addTarget(self, action: #selector(Lesson1_4ViewController.segmentedValueChanged(_:)), forControlEvents: UIControlEvents.ValueChanged)
         // set action for switch
-        mySwitch.addTarget(self, action: "switchValueChanged:", forControlEvents: UIControlEvents.ValueChanged)
+        mySwitch.addTarget(self, action: #selector(Lesson1_4ViewController.switchValueChanged(_:)), forControlEvents: UIControlEvents.ValueChanged)
         
         // dump contentsScale
         print("contentsScale : \(myView.layer.contentsScale)")

@@ -17,7 +17,7 @@ class Lesson1_3ViewController: UIViewController {
         super.viewDidLoad()
         
         // initialize segmented control
-        mySegmentedControl.addTarget(self, action: "segmentedValueChanged:", forControlEvents: UIControlEvents.ValueChanged)
+        mySegmentedControl.addTarget(self, action: #selector(Lesson1_3ViewController.segmentedValueChanged(_:)), forControlEvents: UIControlEvents.ValueChanged)
 
         // image content
         let image = UIImage(named: "chess.png")

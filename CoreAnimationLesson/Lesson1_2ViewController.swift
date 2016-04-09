@@ -17,7 +17,7 @@ class Lesson1_2ViewController: UIViewController {
         super.viewDidLoad()
         
         // initialize segmented control
-        mySegmentedControl.addTarget(self, action: "segmentedValueChanged:", forControlEvents: UIControlEvents.ValueChanged)
+        mySegmentedControl.addTarget(self, action: #selector(Lesson1_2ViewController.segmentedValueChanged(_:)), forControlEvents: UIControlEvents.ValueChanged)
 
 
         // image content
