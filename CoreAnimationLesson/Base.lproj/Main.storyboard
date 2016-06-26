@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yAp-me-AtW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yAp-me-AtW">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -209,6 +209,64 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection headerTitle="Lesson2" id="FCW-S8-jIG">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="atM-8r-Kuu" detailTextLabel="WeA-nO-byF" style="IBUITableViewCellStyleSubtitle" id="z5b-JX-JqF">
+                                        <rect key="frame" x="0.0" y="416" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z5b-JX-JqF" id="TNy-ZQ-wF3">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Animating with blocks(animatable properties)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="atM-8r-Kuu">
+                                                    <rect key="frame" x="15" y="5" width="328" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Lesson2-1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WeA-nO-byF">
+                                                    <rect key="frame" x="15" y="25" width="55" height="14"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="2ou-K2-Br6" kind="show" id="TvU-20-7PB"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="b9p-Dd-eoa" detailTextLabel="BCL-0k-VDa" style="IBUITableViewCellStyleSubtitle" id="yaT-Ct-xBy">
+                                        <rect key="frame" x="0.0" y="460" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yaT-Ct-xBy" id="uau-8C-Ml0">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Animating with blocks(about options)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="b9p-Dd-eoa">
+                                                    <rect key="frame" x="15" y="5" width="270" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Lesson2-2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BCL-0k-VDa">
+                                                    <rect key="frame" x="15" y="25" width="56" height="14"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="jNP-U9-8MS" kind="show" id="0p4-Jc-eYa"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="pLc-oR-CSZ" id="3FU-AO-32z"/>
@@ -252,7 +310,149 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e9T-nH-4oy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1380" y="-186"/>
+            <point key="canvasLocation" x="1476" y="-626"/>
+        </scene>
+        <!--Lesson2-1-->
+        <scene sceneID="eU7-Cj-qrt">
+            <objects>
+                <viewController title="Lesson2-1" id="2ou-K2-Br6" customClass="Lesson2_1PropertiesViewController" customModule="CoreAnimationLesson" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hH8-45-ikZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="g74-H1-xKb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SBe-sG-9BT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wOu-6a-Qah">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="rewind" id="tRA-FU-heO">
+                                        <connections>
+                                            <action selector="rewindAnimation:" destination="2ou-K2-Br6" id="Tiy-ea-c0T"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="28" style="plain" systemItem="fixedSpace" id="8CW-iC-HB2"/>
+                                    <barButtonItem systemItem="play" id="FJx-KW-ZwQ">
+                                        <connections>
+                                            <action selector="performDoIt:" destination="2ou-K2-Br6" id="zdA-2W-vun"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="myView:" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6oF-LF-prs">
+                                <rect key="frame" x="20" y="427" width="251" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="251" id="2Hm-k8-638"/>
+                                    <constraint firstAttribute="height" constant="67" id="PT7-2i-hOD"/>
+                                </constraints>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Pj9-af-oo1">
+                                <rect key="frame" x="20" y="508" width="560" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="7zj-IM-jgZ"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="move"/>
+                                    <segment title="scale"/>
+                                    <segment title="alpha"/>
+                                    <segment title="bg color"/>
+                                    <segment title="all"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="g74-H1-xKb" firstAttribute="top" secondItem="wOu-6a-Qah" secondAttribute="bottom" id="5ig-f1-ohY"/>
+                            <constraint firstItem="wOu-6a-Qah" firstAttribute="top" secondItem="Pj9-af-oo1" secondAttribute="bottom" constant="20" id="7A8-JY-t8g"/>
+                            <constraint firstItem="Pj9-af-oo1" firstAttribute="top" secondItem="6oF-LF-prs" secondAttribute="bottom" constant="14" id="FF1-xF-FEq"/>
+                            <constraint firstItem="6oF-LF-prs" firstAttribute="leading" secondItem="SBe-sG-9BT" secondAttribute="leadingMargin" id="FSG-Ih-Aqw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wOu-6a-Qah" secondAttribute="trailing" constant="-20" id="HtY-iM-VkX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Pj9-af-oo1" secondAttribute="trailing" id="O12-r9-6l4"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Pj9-af-oo1" secondAttribute="leading" id="gvu-HZ-zTu"/>
+                            <constraint firstItem="wOu-6a-Qah" firstAttribute="leading" secondItem="SBe-sG-9BT" secondAttribute="leadingMargin" constant="-20" id="rbp-Zq-ISK"/>
+                            <constraint firstItem="wOu-6a-Qah" firstAttribute="width" secondItem="SBe-sG-9BT" secondAttribute="width" id="reG-7b-ciG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animationTargetControl" destination="Pj9-af-oo1" id="tE2-7q-tXg"/>
+                        <outlet property="informationTextView" destination="6oF-LF-prs" id="Jxa-tk-Cb5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vri-SE-AfR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1476" y="951"/>
+        </scene>
+        <!--Lesson2-2-->
+        <scene sceneID="HSJ-G1-II6">
+            <objects>
+                <viewController title="Lesson2-2" id="jNP-U9-8MS" customClass="Lesson2_2ViewController" customModule="CoreAnimationLesson" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qos-cn-zhG"/>
+                        <viewControllerLayoutGuide type="bottom" id="MUm-Yt-fXr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jvo-aZ-3gP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bdz-ow-L7T">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="rewind" id="9Qe-8B-cMP">
+                                        <connections>
+                                            <action selector="rewindAnimation:" destination="jNP-U9-8MS" id="RN3-S7-uvF"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="24" style="plain" systemItem="fixedSpace" id="qt1-sH-IHk"/>
+                                    <barButtonItem systemItem="play" id="9us-k7-qHj">
+                                        <connections>
+                                            <action selector="performDoIt:" destination="jNP-U9-8MS" id="k8E-tI-ChU"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ITN-xf-bgG"/>
+                                    <barButtonItem systemItem="compose" id="JhP-MO-Ex9">
+                                        <connections>
+                                            <action selector="changeConfiguration:" destination="jNP-U9-8MS" id="XaF-Si-dpb"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="06C-Ps-FIg">
+                                <rect key="frame" x="461" y="510" width="119" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="119" id="Ivh-RF-ofX"/>
+                                </constraints>
+                                <state key="normal" title="create ghost"/>
+                                <connections>
+                                    <action selector="toggleGhost:" destination="jNP-U9-8MS" eventType="touchUpInside" id="5f3-rz-0Cx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MUm-Yt-fXr" firstAttribute="top" secondItem="bdz-ow-L7T" secondAttribute="bottom" id="Nm9-O4-9Fd"/>
+                            <constraint firstItem="bdz-ow-L7T" firstAttribute="width" secondItem="Jvo-aZ-3gP" secondAttribute="width" id="Qnv-ey-jka"/>
+                            <constraint firstItem="bdz-ow-L7T" firstAttribute="leading" secondItem="Jvo-aZ-3gP" secondAttribute="leadingMargin" constant="-20" id="SHv-w8-7YX"/>
+                            <constraint firstItem="MUm-Yt-fXr" firstAttribute="top" secondItem="06C-Ps-FIg" secondAttribute="bottom" constant="60" id="U7J-X0-HYu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="06C-Ps-FIg" secondAttribute="trailing" id="he8-aK-5K7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bdz-ow-L7T" secondAttribute="trailing" constant="-20" id="nTr-3h-OyH"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Qnv-ey-jka"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="ghostButton" destination="06C-Ps-FIg" id="8S1-Y3-SFB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="heB-kS-n1Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2176" y="951"/>
         </scene>
         <!--Lesson1-2-->
         <scene sceneID="mTO-5V-Ehe">
@@ -306,7 +506,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4HJ-NM-0DI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2096" y="-186"/>
+            <point key="canvasLocation" x="2176" y="-626"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Hf1-T2-gcw">
@@ -378,7 +578,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O4m-qM-94V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2799" y="-186"/>
+            <point key="canvasLocation" x="2911" y="-626"/>
         </scene>
         <!--Lesson1-4-->
         <scene sceneID="6IM-0S-il7">
@@ -441,7 +641,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j93-9n-ODi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3492" y="-186"/>
+            <point key="canvasLocation" x="1476" y="10"/>
         </scene>
         <!--Lesson1-5-->
         <scene sceneID="GJt-Rq-VWe">
@@ -490,7 +690,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EjF-G8-DL5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4179" y="-186"/>
+            <point key="canvasLocation" x="2176" y="10"/>
         </scene>
         <!--Lesson1-6-->
         <scene sceneID="uMU-Us-ZRp">
@@ -577,7 +777,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lf3-kk-SC3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4851" y="-186"/>
+            <point key="canvasLocation" x="2911" y="10"/>
         </scene>
         <!--Lesson1-7-->
         <scene sceneID="adO-Ms-TVq">
@@ -610,7 +810,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RU2-WX-bCG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5534" y="-186"/>
+            <point key="canvasLocation" x="3642" y="10"/>
         </scene>
     </scenes>
 </document>

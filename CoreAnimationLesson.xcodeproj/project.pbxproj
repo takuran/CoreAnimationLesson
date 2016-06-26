@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0400581CCB780200419D84 /* Lesson2_2ConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0400571CCB780200419D84 /* Lesson2_2ConfigurationView.swift */; };
+		6E07472B1CDA5A21000E6BAE /* Lesson2_2MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E07472A1CDA5A21000E6BAE /* Lesson2_2MyView.swift */; };
+		6E07472D1CDF1CFC000E6BAE /* Lesson2-1PropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E07472C1CDF1CFC000E6BAE /* Lesson2-1PropertiesViewController.swift */; };
+		6E07472F1CDF20E8000E6BAE /* Lesson2_RectMyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E07472E1CDF20E8000E6BAE /* Lesson2_RectMyView.swift */; };
 		6E0C6AEE1ABEC34700BEADC8 /* Lesson1_4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C6AED1ABEC34700BEADC8 /* Lesson1_4ViewController.swift */; };
 		6E5945481ADC3241009F7C78 /* Lesson1-7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5945471ADC3241009F7C78 /* Lesson1-7ViewController.swift */; };
 		6E5EC5181AA287A600DE08CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5EC5171AA287A600DE08CF /* AppDelegate.swift */; };
@@ -18,12 +22,14 @@
 		6E5EC5411AA2FEE700DE08CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5EC5401AA2FEE700DE08CF /* QuartzCore.framework */; };
 		6E6261E71AACA1AC0047A250 /* Lesson1_3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6261E61AACA1AC0047A250 /* Lesson1_3ViewController.swift */; };
 		6E9C30F61AECA9B3008D5A11 /* Lesson1-7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9C30F51AECA9B3008D5A11 /* Lesson1-7View.swift */; };
+		6EBC63261CCCB9900024D0AD /* ConfigurationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC63251CCCB9900024D0AD /* ConfigurationView.xib */; };
 		6EC9EA7D1AD1162B009A9A4A /* AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EC9EA7C1AD1162B009A9A4A /* AB.png */; };
 		6EC9EA7F1AD1189E009A9A4A /* Lesson1-5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9EA7E1AD1189E009A9A4A /* Lesson1-5ViewController.swift */; };
 		6EC9EA811AD18198009A9A4A /* Lesson1-6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9EA801AD18198009A9A4A /* Lesson1-6ViewController.swift */; };
 		6EC9EA831AD18689009A9A4A /* figure1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EC9EA821AD18689009A9A4A /* figure1.png */; };
 		6ED891031AA622F8005D9687 /* Lesson1_2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED891021AA622F8005D9687 /* Lesson1_2ViewController.swift */; };
 		6EDEF63E1AB51BC100CE61B1 /* chess.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEF63D1AB51BC100CE61B1 /* chess.png */; };
+		6EECA9281CB8F3420090A1D5 /* Lesson2-2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EECA9271CB8F3420090A1D5 /* Lesson2-2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E0400571CCB780200419D84 /* Lesson2_2ConfigurationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson2_2ConfigurationView.swift; sourceTree = "<group>"; };
+		6E07472A1CDA5A21000E6BAE /* Lesson2_2MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson2_2MyView.swift; sourceTree = "<group>"; };
+		6E07472C1CDF1CFC000E6BAE /* Lesson2-1PropertiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lesson2-1PropertiesViewController.swift"; sourceTree = "<group>"; };
+		6E07472E1CDF20E8000E6BAE /* Lesson2_RectMyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson2_RectMyView.swift; sourceTree = "<group>"; };
 		6E0C6AED1ABEC34700BEADC8 /* Lesson1_4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson1_4ViewController.swift; sourceTree = "<group>"; };
 		6E5945471ADC3241009F7C78 /* Lesson1-7ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lesson1-7ViewController.swift"; sourceTree = "<group>"; };
 		6E5EC5121AA287A600DE08CF /* CoreAnimationLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,12 +62,14 @@
 		6E5EC5401AA2FEE700DE08CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6E6261E61AACA1AC0047A250 /* Lesson1_3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson1_3ViewController.swift; sourceTree = "<group>"; };
 		6E9C30F51AECA9B3008D5A11 /* Lesson1-7View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lesson1-7View.swift"; sourceTree = "<group>"; };
+		6EBC63251CCCB9900024D0AD /* ConfigurationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigurationView.xib; sourceTree = "<group>"; };
 		6EC9EA7C1AD1162B009A9A4A /* AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AB.png; sourceTree = "<group>"; };
 		6EC9EA7E1AD1189E009A9A4A /* Lesson1-5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lesson1-5ViewController.swift"; sourceTree = "<group>"; };
 		6EC9EA801AD18198009A9A4A /* Lesson1-6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lesson1-6ViewController.swift"; sourceTree = "<group>"; };
 		6EC9EA821AD18689009A9A4A /* figure1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = figure1.png; sourceTree = "<group>"; };
 		6ED891021AA622F8005D9687 /* Lesson1_2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson1_2ViewController.swift; sourceTree = "<group>"; };
 		6EDEF63D1AB51BC100CE61B1 /* chess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess.png; sourceTree = "<group>"; };
+		6EECA9271CB8F3420090A1D5 /* Lesson2-2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lesson2-2ViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +168,12 @@
 		6EAE01251AF9F36D006F1DC7 /* Lesson2 */ = {
 			isa = PBXGroup;
 			children = (
+				6EECA9271CB8F3420090A1D5 /* Lesson2-2ViewController.swift */,
+				6E0400571CCB780200419D84 /* Lesson2_2ConfigurationView.swift */,
+				6EBC63251CCCB9900024D0AD /* ConfigurationView.xib */,
+				6E07472A1CDA5A21000E6BAE /* Lesson2_2MyView.swift */,
+				6E07472C1CDF1CFC000E6BAE /* Lesson2-1PropertiesViewController.swift */,
+				6E07472E1CDF20E8000E6BAE /* Lesson2_RectMyView.swift */,
 			);
 			name = Lesson2;
 			sourceTree = "<group>";
@@ -256,6 +274,7 @@
 				6E5EC51D1AA287A600DE08CF /* Main.storyboard in Resources */,
 				6E5EC5221AA287A600DE08CF /* LaunchScreen.xib in Resources */,
 				6EC9EA7D1AD1162B009A9A4A /* AB.png in Resources */,
+				6EBC63261CCCB9900024D0AD /* ConfigurationView.xib in Resources */,
 				6EC9EA831AD18689009A9A4A /* figure1.png in Resources */,
 				6EDEF63E1AB51BC100CE61B1 /* chess.png in Resources */,
 				6E5EC51F1AA287A600DE08CF /* Images.xcassets in Resources */,
@@ -278,13 +297,18 @@
 			files = (
 				6E5945481ADC3241009F7C78 /* Lesson1-7ViewController.swift in Sources */,
 				6E5EC53D1AA2B55000DE08CF /* Lesson1_1ViewController.swift in Sources */,
+				6E07472D1CDF1CFC000E6BAE /* Lesson2-1PropertiesViewController.swift in Sources */,
+				6E07472F1CDF20E8000E6BAE /* Lesson2_RectMyView.swift in Sources */,
 				6E0C6AEE1ABEC34700BEADC8 /* Lesson1_4ViewController.swift in Sources */,
+				6E0400581CCB780200419D84 /* Lesson2_2ConfigurationView.swift in Sources */,
 				6ED891031AA622F8005D9687 /* Lesson1_2ViewController.swift in Sources */,
 				6E6261E71AACA1AC0047A250 /* Lesson1_3ViewController.swift in Sources */,
 				6E9C30F61AECA9B3008D5A11 /* Lesson1-7View.swift in Sources */,
 				6EC9EA7F1AD1189E009A9A4A /* Lesson1-5ViewController.swift in Sources */,
+				6EECA9281CB8F3420090A1D5 /* Lesson2-2ViewController.swift in Sources */,
 				6E5EC5181AA287A600DE08CF /* AppDelegate.swift in Sources */,
 				6EC9EA811AD18198009A9A4A /* Lesson1-6ViewController.swift in Sources */,
+				6E07472B1CDA5A21000E6BAE /* Lesson2_2MyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
